@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Aplicação de monitoramento nível pluvial",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "twilio": "^5.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
