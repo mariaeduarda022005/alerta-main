@@ -6,6 +6,10 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 
+const accountSid = "AC7d2c7b80d00db698087241f0fcae0920";
+const authToken ="d2159d25664fea76db169ab1a0398869";
+const client = require('twilio')(accountSid, authToken);
+
 app.use(bodyParser.json());
 
 app.use(cors());
